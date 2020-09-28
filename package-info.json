@@ -1,0 +1,33 @@
+{
+	"name" : "mc BEAP",
+	"displayname" : "mc BEAP",
+	"version" : "1.0.0",
+	"author" : "Matthew Davidson",
+	"authors" : [  ],
+	"description" : "Polyphonic BEAP Modules",
+	"tags" : [ "beap", "externals" ],
+	"website" : "http://www.stretta.com",
+	"extends" : "BEAP",
+	"extensible" : 0,
+	"max_version_min" : "8.0",
+	"max_version_max" : "none",
+	"os" : 	{
+		"macintosh" : 		{
+			"min_version" : "10.11.x",
+			"platform" : [ "x64" ]
+		}
+,
+		"windows" : 		{
+			"min_version" : "8",
+			"platform" : [ "x64" ]
+		}
+
+	}
+,
+	"homepatcher" : "launch.maxpat",
+	"filelist" : 	{
+		"patchers" : [ "bp.mc.ADSR.maxpat", "bp.mc.AHD.maxpat" ],
+		"clippings" : [ "BEAP/MC/bp.mc ADSR.maxpat" ]
+		
+	}
+}
