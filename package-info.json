@@ -27,7 +27,8 @@
 	"homepatcher" : "launch.maxpat",
 	"filelist" : 	{
 		"patchers" : [ "bp.mc.ADSR.maxpat", "bp.mc.AHD.maxpat" ],
-		"clippings" : [ "BEAP/MC/bp.mc ADSR.maxpat" ]
-		
+		"clippings" : [ "BEAP/MC/bp.mc ADSR.maxpat" ],
+"version": 0.9,
+  "website": "https://github.com/stretta/MC-Beap"
 	}
 }

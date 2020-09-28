@@ -47,8 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 475.0, 41.5, 223.0, 67.0 ],
-					"presentation_linecount" : 5,
-					"text" : "mc Beap modules can be found in the standard Beap  siderbar under 'MC'"
+					"text" : "mc Beap modules can be found in the standard Beap siderbar under 'MC'"
 				}
 
 			}
