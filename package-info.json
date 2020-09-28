@@ -6,10 +6,10 @@
 	"authors" : [  ],
 	"description" : "Polyphonic BEAP Modules",
 	"tags" : [ "beap", "externals" ],
-	"website" : "http://www.stretta.com",
+	"website" : "https://github.com/stretta/",
 	"extends" : "BEAP",
 	"extensible" : 0,
-	"max_version_min" : "8.0",
+	"max_version_min" : "8.1",
 	"max_version_max" : "none",
 	"os" : 	{
 		"macintosh" : 		{
