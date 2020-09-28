@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 784.0, 232.0, 337.0, 480.0 ],
+		"rect" : [ 784.0, 232.0, 34.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -84,7 +84,7 @@
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Voices",
-							"parameter_mmax" : 64.0,
+							"parameter_mmax" : 8.0,
 							"parameter_mmin" : 2.0,
 							"parameter_shortname" : "Voices",
 							"parameter_type" : 1,
@@ -317,11 +317,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 250.0, 210.0, 30.0, 30.0 ]
 				}
 
@@ -1734,7 +1734,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-108",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1746,7 +1746,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-109",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1758,7 +1758,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-102",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1770,7 +1770,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-103",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1816,11 +1816,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-36",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 91.5, 210.0, 30.0, 30.0 ]
 				}
 
@@ -1961,7 +1961,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-44",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1973,7 +1973,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-45",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2653,7 +2653,20 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-111" : [ "CC[3]", "CC", 0 ],
+			"obj-129" : [ "Voices", "Voices", 0 ],
+			"obj-8" : [ "Bend", "Bend", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

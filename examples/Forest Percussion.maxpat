@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 992.0, 725.0 ],
+		"rect" : [ 141.0, 83.0, 799.0, 577.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 19.0, 797.0, 332.0, 116.0 ],
+					"patching_rect" : [ 43.0, 954.0, 332.0, 116.0 ],
 					"varname" : "bp.Gigaverb",
 					"viewvisibility" : 1
 				}
@@ -76,7 +76,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 961.0, 101.0, 217.0, 116.0 ],
+					"patching_rect" : [ 985.0, 258.0, 217.0, 116.0 ],
 					"varname" : "bp.mc.Quantizer[1]",
 					"viewvisibility" : 1
 				}
@@ -98,7 +98,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 778.0, 425.0, 113.0, 116.0 ],
+					"patching_rect" : [ 802.0, 582.0, 113.0, 116.0 ],
 					"varname" : "bp.mc.VCA[1]",
 					"viewvisibility" : 1
 				}
@@ -120,7 +120,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 1108.0, 294.0, 152.0, 116.0 ],
+					"patching_rect" : [ 1132.0, 451.0, 152.0, 116.0 ],
 					"varname" : "bp.mc.AHD[1]",
 					"viewvisibility" : 1
 				}
@@ -142,7 +142,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 778.0, 294.0, 314.0, 116.0 ],
+					"patching_rect" : [ 802.0, 451.0, 314.0, 116.0 ],
 					"varname" : "bp.mc.Oscillator[1]",
 					"viewvisibility" : 1
 				}
@@ -164,7 +164,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 778.0, -112.0, 95.0, 116.0 ],
+					"patching_rect" : [ 802.0, 45.0, 95.0, 116.0 ],
 					"varname" : "bp.mc.Noise[1]",
 					"viewvisibility" : 1
 				}
@@ -186,7 +186,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 778.0, 23.0, 90.0, 116.0 ],
+					"patching_rect" : [ 802.0, 180.0, 90.0, 116.0 ],
 					"varname" : "bp.mc.Sample and Hold[1]",
 					"viewvisibility" : 1
 				}
@@ -208,7 +208,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 488.0, 261.0, 146.0, 116.0 ],
+					"patching_rect" : [ 512.0, 418.0, 146.0, 116.0 ],
 					"varname" : "bp.mc.Gain and Bias",
 					"viewvisibility" : 1
 				}
@@ -230,7 +230,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 497.0, 125.0, 170.0, 116.0 ],
+					"patching_rect" : [ 521.0, 282.0, 170.0, 116.0 ],
 					"varname" : "bp.mc.LFO[1]",
 					"viewvisibility" : 1
 				}
@@ -252,7 +252,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 19.0, 265.0, 217.0, 116.0 ],
+					"patching_rect" : [ 43.0, 422.0, 217.0, 116.0 ],
 					"varname" : "bp.mc.Quantizer",
 					"viewvisibility" : 1
 				}
@@ -274,7 +274,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 19.0, 542.0, 113.0, 116.0 ],
+					"patching_rect" : [ 43.0, 699.0, 113.0, 116.0 ],
 					"varname" : "bp.mc.VCA",
 					"viewvisibility" : 1
 				}
@@ -296,7 +296,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 349.0, 411.0, 152.0, 116.0 ],
+					"patching_rect" : [ 373.0, 568.0, 152.0, 116.0 ],
 					"varname" : "bp.mc.AHD",
 					"viewvisibility" : 1
 				}
@@ -317,7 +317,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 21.0, 923.0, 148.0, 116.0 ],
+					"patching_rect" : [ 45.0, 1080.0, 148.0, 116.0 ],
 					"varname" : "bp.Stereo",
 					"viewvisibility" : 1
 				}
@@ -339,7 +339,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 19.0, 669.0, 150.0, 116.0 ],
+					"patching_rect" : [ 43.0, 826.0, 150.0, 116.0 ],
 					"varname" : "bp.mc.Voice Combiner",
 					"viewvisibility" : 1
 				}
@@ -361,7 +361,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 19.0, 411.0, 314.0, 116.0 ],
+					"patching_rect" : [ 43.0, 568.0, 314.0, 116.0 ],
 					"varname" : "bp.mc.Oscillator",
 					"viewvisibility" : 1
 				}
@@ -383,7 +383,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 122.0, 5.0, 170.0, 116.0 ],
+					"patching_rect" : [ 146.0, 162.0, 170.0, 116.0 ],
 					"varname" : "bp.mc.LFO",
 					"viewvisibility" : 1
 				}
@@ -405,7 +405,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 19.0, 5.0, 95.0, 116.0 ],
+					"patching_rect" : [ 43.0, 162.0, 95.0, 116.0 ],
 					"varname" : "bp.mc.Noise",
 					"viewvisibility" : 1
 				}
@@ -427,7 +427,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 19.0, 140.0, 90.0, 116.0 ],
+					"patching_rect" : [ 43.0, 297.0, 90.0, 116.0 ],
 					"varname" : "bp.mc.Sample and Hold",
 					"viewvisibility" : 1
 				}
@@ -822,49 +822,49 @@
 		"dependency_cache" : [ 			{
 				"name" : "Forest Percussion.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Forest Percussion[1].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Forest Percussion[2].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.mc.Sample and Hold.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/mc BEAP/patchers",
-				"patcherrelativepath" : "../../Max 8/Packages/mc BEAP/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.mc.Noise.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/mc BEAP/patchers",
-				"patcherrelativepath" : "../../Max 8/Packages/mc BEAP/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.mc.LFO.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/mc BEAP/patchers",
-				"patcherrelativepath" : "../../Max 8/Packages/mc BEAP/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.mc.Oscillator.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/mc BEAP/patchers",
-				"patcherrelativepath" : "../../Max 8/Packages/mc BEAP/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -895,7 +895,7 @@
 , 			{
 				"name" : "bp.mc.Voice Combiner.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/mc BEAP/patchers",
-				"patcherrelativepath" : "../../Max 8/Packages/mc BEAP/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -908,7 +908,7 @@
 , 			{
 				"name" : "bp.mc.AHD.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/mc BEAP/patchers",
-				"patcherrelativepath" : "../../Max 8/Packages/mc BEAP/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -921,14 +921,14 @@
 , 			{
 				"name" : "bp.mc.VCA.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/mc BEAP/patchers",
-				"patcherrelativepath" : "../../Max 8/Packages/mc BEAP/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.mc.Quantizer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/mc BEAP/patchers",
-				"patcherrelativepath" : "../../Max 8/Packages/mc BEAP/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -947,7 +947,7 @@
 , 			{
 				"name" : "bp.mc.Gain and Bias.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/mc BEAP/patchers",
-				"patcherrelativepath" : "../../Max 8/Packages/mc BEAP/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

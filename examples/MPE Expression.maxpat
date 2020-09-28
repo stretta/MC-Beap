@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 969.0, 696.0 ],
+		"rect" : [ 100.0, 100.0, 787.0, 551.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.Gigaverb.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 66.0, 880.0, 332.0, 116.0 ],
+					"varname" : "bp.Gigaverb",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -56,8 +78,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 835.0, 314.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 778.0, 349.0, 150.0, 33.0 ],
 					"text" : "Vertical finger position = LFO speed"
 				}
 
@@ -154,7 +175,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 68.0, 887.0, 148.0, 116.0 ],
+					"patching_rect" : [ 66.0, 1021.0, 148.0, 116.0 ],
 					"varname" : "bp.Stereo",
 					"viewvisibility" : 1
 				}
@@ -220,7 +241,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 635.0, 299.0, 156.0, 116.0 ],
+					"patching_rect" : [ 564.0, 319.0, 156.0, 116.0 ],
 					"varname" : "bp.mc.CV LFO",
 					"viewvisibility" : 1
 				}
@@ -264,7 +285,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 398.0, 306.0, 150.0, 116.0 ],
+					"patching_rect" : [ 391.0, 319.0, 150.0, 116.0 ],
 					"varname" : "bp.mc.Lag Processor",
 					"viewvisibility" : 1
 				}
@@ -294,6 +315,20 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-10", 0 ]
@@ -344,24 +379,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-13", 1 ],
+					"midpoints" : [ 386.5, 612.0, 744.0, 612.0, 744.0, 165.0, 257.5, 165.0 ],
+					"order" : 0,
 					"source" : [ "obj-15", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 75.5, 724.0, 22.0, 724.0, 22.0, 165.0, 257.5, 165.0 ],
-					"order" : 0,
-					"source" : [ "obj-2", 0 ]
+					"destination" : [ "obj-2", 1 ],
+					"order" : 1,
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -375,14 +410,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 1 ],
+					"destination" : [ "obj-1", 1 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -430,6 +465,15 @@
 			"obj-15::obj-29" : [ "Decay", "Decay", 0 ],
 			"obj-15::obj-31" : [ "Release", "Release", 0 ],
 			"obj-15::obj-32" : [ "Sustain", "Sustain", 0 ],
+			"obj-1::obj-23" : [ "bypass[1]", "bypass", 0 ],
+			"obj-1::obj-28" : [ "Size", "Size", 0 ],
+			"obj-1::obj-3" : [ "Regen", "Regen", 0 ],
+			"obj-1::obj-60" : [ "Damp", "Damp", 0 ],
+			"obj-1::obj-62" : [ "Dry", "Dry", 0 ],
+			"obj-1::obj-63" : [ "Early", "Early", 0 ],
+			"obj-1::obj-64" : [ "Tail", "Tail", 0 ],
+			"obj-1::obj-65" : [ "Spread[1]", "Spread", 0 ],
+			"obj-1::obj-66" : [ "Time", "Time", 0 ],
 			"obj-2::obj-33" : [ "Quadrants", "Quadrants", 0 ],
 			"obj-2::obj-55" : [ "Bypass", "Bypass", 0 ],
 			"obj-2::obj-80" : [ "Response", "Response", 0 ],
@@ -481,6 +525,14 @@
 ,
 				"obj-15::obj-20" : 				{
 					"parameter_longname" : "Mute"
+				}
+,
+				"obj-1::obj-23" : 				{
+					"parameter_longname" : "bypass[1]"
+				}
+,
+				"obj-1::obj-65" : 				{
+					"parameter_longname" : "Spread[1]"
 				}
 ,
 				"obj-9::obj-22" : 				{
@@ -587,6 +639,12 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "bp.Gigaverb.maxpat",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
 		"autosave" : 0,
 		"snapshot" : 		{
@@ -612,14 +670,17 @@
 						"CV3" : 0.0,
 						"CV3[1]" : 0.0,
 						"DSP" : 1.0,
+						"Damp" : 0.7,
 						"Decay" : 2249.365300761396156,
 						"Deivation[1]" : 2.16998750116685,
 						"Down" : 472.130017654632013,
+						"Dry" : 1.0,
+						"Early" : 0.25,
 						"Fatness" : 2.366431913239846,
-						"Freq" : 6763.827787163825633,
+						"Freq" : 6763.827789816807126,
 						"Freq[1]" : 6766.246564310111353,
 						"Legato" : 1.0,
-						"Level" : -14.39179528301888,
+						"Level" : -2.175482699450328,
 						"Linear" : 0.0,
 						"Mute" : 0.0,
 						"Mute[4]" : 0.0,
@@ -631,21 +692,27 @@
 						"Quadrants" : 0.0,
 						"Rate[1]" : 1.322834645669299,
 						"Rate[5]" : 15.942782884407801,
+						"Regen" : 0.5,
 						"Release" : 5737.352008949236733,
 						"Res" : 0.0,
 						"ResCV" : 0.0,
 						"Response" : 0.0,
 						"Shape" : 0.0,
 						"ShapeShift[2]" : 50.0,
+						"Size" : 149.974981234360769,
 						"Spread" : 42.519685039370025,
+						"Spread[1]" : 23.0,
 						"Sustain" : 100.0,
-						"Up" : 472.130017654632013,
+						"Tail" : 0.25,
+						"Time" : 11715.099855785485488,
+						"Up" : 180.791434977466963,
 						"Voices" : 5.0,
 						"WaveformCloud" : 0.0,
 						"bypass" : 0.0,
+						"bypass[1]" : 0.0,
 						"power" : 0.0,
 						"InterpMode" : 0.0,
-						"Link" : 1.0,
+						"Link" : 0.0,
 						"TimeMode" : 1.0,
 						"TimeMode[1]" : 1.0
 					}
@@ -679,14 +746,17 @@
 									"CV3" : 0.0,
 									"CV3[1]" : 0.0,
 									"DSP" : 1.0,
+									"Damp" : 0.7,
 									"Decay" : 2249.365300761396156,
 									"Deivation[1]" : 2.16998750116685,
 									"Down" : 472.130017654632013,
+									"Dry" : 1.0,
+									"Early" : 0.25,
 									"Fatness" : 2.366431913239846,
-									"Freq" : 6763.827787163825633,
+									"Freq" : 6763.827789816807126,
 									"Freq[1]" : 6766.246564310111353,
 									"Legato" : 1.0,
-									"Level" : -14.39179528301888,
+									"Level" : -2.175482699450328,
 									"Linear" : 0.0,
 									"Mute" : 0.0,
 									"Mute[4]" : 0.0,
@@ -698,21 +768,27 @@
 									"Quadrants" : 0.0,
 									"Rate[1]" : 1.322834645669299,
 									"Rate[5]" : 15.942782884407801,
+									"Regen" : 0.5,
 									"Release" : 5737.352008949236733,
 									"Res" : 0.0,
 									"ResCV" : 0.0,
 									"Response" : 0.0,
 									"Shape" : 0.0,
 									"ShapeShift[2]" : 50.0,
+									"Size" : 149.974981234360769,
 									"Spread" : 42.519685039370025,
+									"Spread[1]" : 23.0,
 									"Sustain" : 100.0,
-									"Up" : 472.130017654632013,
+									"Tail" : 0.25,
+									"Time" : 11715.099855785485488,
+									"Up" : 180.791434977466963,
 									"Voices" : 5.0,
 									"WaveformCloud" : 0.0,
 									"bypass" : 0.0,
+									"bypass[1]" : 0.0,
 									"power" : 0.0,
 									"InterpMode" : 0.0,
-									"Link" : 1.0,
+									"Link" : 0.0,
 									"TimeMode" : 1.0,
 									"TimeMode[1]" : 1.0
 								}
