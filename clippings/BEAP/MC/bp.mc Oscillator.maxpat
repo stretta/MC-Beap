@@ -54,8 +54,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ -0.213592529296875, -1.058242797851562, 314.0, 116.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 314.0, 116.0 ],
 					"varname" : "Oscillator",
 					"viewvisibility" : 1
 				}
